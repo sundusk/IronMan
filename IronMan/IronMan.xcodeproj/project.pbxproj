@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F77B227D62A28229EA6D2F8 /* libPods-IronMan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A08A141002374475B9AA5A53 /* libPods-IronMan.a */; };
+		4ACCCF6A3B4774FCC702509B /* libPods-IronManUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C676AD2002AD0A9840DC4E6 /* libPods-IronManUITests.a */; };
 		C2947C6920729ACD00A6756F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2947C6820729ACD00A6756F /* AppDelegate.m */; };
 		C2947C6C20729ACD00A6756F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2947C6B20729ACD00A6756F /* ViewController.m */; };
 		C2947C6F20729ACD00A6756F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2947C6D20729ACD00A6756F /* Main.storyboard */; };
@@ -15,6 +17,18 @@
 		C2947C7720729ACE00A6756F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2947C7620729ACE00A6756F /* main.m */; };
 		C2947C8120729ACE00A6756F /* IronManTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2947C8020729ACE00A6756F /* IronManTests.m */; };
 		C2947C8C20729ACE00A6756F /* IronManUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2947C8B20729ACE00A6756F /* IronManUITests.m */; };
+		C2947CD920737F4100A6756F /* IMLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2947CD820737F4100A6756F /* IMLogViewController.m */; };
+		C2947CFD20739F3E00A6756F /* NSArray+HJImages.m in Sources */ = {isa = PBXBuildFile; fileRef = C2947CF020739F3E00A6756F /* NSArray+HJImages.m */; };
+		C2947CFE20739F3E00A6756F /* HJBaseLogin_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2947CF220739F3E00A6756F /* HJBaseLogin_VC.m */; };
+		C2947CFF20739F3E00A6756F /* HJLoginExample01_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2947CF520739F3E00A6756F /* HJLoginExample01_VC.m */; };
+		C2947D0020739F3E00A6756F /* HJLoginExample04_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2947CFA20739F3E00A6756F /* HJLoginExample04_VC.m */; };
+		C2947D0120739F3E00A6756F /* HJLoginExample03_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2947CFB20739F3E00A6756F /* HJLoginExample03_VC.m */; };
+		C2947D0220739F3E00A6756F /* HJLoginExample02_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2947CFC20739F3E00A6756F /* HJLoginExample02_VC.m */; };
+		C2947D0820739F6800A6756F /* login_bg01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2947D0420739F6800A6756F /* login_bg01.jpg */; };
+		C2947D0920739F6800A6756F /* login_bg03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2947D0520739F6800A6756F /* login_bg03.jpg */; };
+		C2947D0A20739F6800A6756F /* login_bg02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2947D0620739F6800A6756F /* login_bg02.jpg */; };
+		C2947D0B20739F6800A6756F /* login_bg_gif_01.gif in Resources */ = {isa = PBXBuildFile; fileRef = C2947D0720739F6800A6756F /* login_bg_gif_01.gif */; };
+		C64D936CB1740D268CD4B104 /* libPods-IronManTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A8F1A01C1A5757B403E3C8 /* libPods-IronManTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D205A98691F424F804D93C6 /* Pods-IronMan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronMan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IronMan/Pods-IronMan.debug.xcconfig"; sourceTree = "<group>"; };
+		3C676AD2002AD0A9840DC4E6 /* libPods-IronManUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IronManUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A8F1A01C1A5757B403E3C8 /* libPods-IronManTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IronManTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D777CC342A0C503D414D149 /* Pods-IronMan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronMan.release.xcconfig"; path = "Pods/Target Support Files/Pods-IronMan/Pods-IronMan.release.xcconfig"; sourceTree = "<group>"; };
+		81A16B93D6B57C8200D3416D /* Pods-IronManTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronManTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IronManTests/Pods-IronManTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A08A141002374475B9AA5A53 /* libPods-IronMan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IronMan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4FD3F93C9796C469A1D82E1 /* Pods-IronManTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronManTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IronManTests/Pods-IronManTests.release.xcconfig"; sourceTree = "<group>"; };
 		C2947C6420729ACD00A6756F /* IronMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IronMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2947C6720729ACD00A6756F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C2947C6820729ACD00A6756F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +72,27 @@
 		C2947C8720729ACE00A6756F /* IronManUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IronManUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2947C8B20729ACE00A6756F /* IronManUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IronManUITests.m; sourceTree = "<group>"; };
 		C2947C8D20729ACE00A6756F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2947CD720737F4100A6756F /* IMLogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMLogViewController.h; sourceTree = "<group>"; };
+		C2947CD820737F4100A6756F /* IMLogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMLogViewController.m; sourceTree = "<group>"; };
+		C2947CEF20739F3E00A6756F /* NSArray+HJImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HJImages.h"; sourceTree = "<group>"; };
+		C2947CF020739F3E00A6756F /* NSArray+HJImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HJImages.m"; sourceTree = "<group>"; };
+		C2947CF220739F3E00A6756F /* HJBaseLogin_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJBaseLogin_VC.m; sourceTree = "<group>"; };
+		C2947CF320739F3E00A6756F /* HJBaseLogin_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJBaseLogin_VC.h; sourceTree = "<group>"; };
+		C2947CF520739F3E00A6756F /* HJLoginExample01_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJLoginExample01_VC.m; sourceTree = "<group>"; };
+		C2947CF620739F3E00A6756F /* HJLoginExample04_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJLoginExample04_VC.h; sourceTree = "<group>"; };
+		C2947CF720739F3E00A6756F /* HJLoginExample03_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJLoginExample03_VC.h; sourceTree = "<group>"; };
+		C2947CF820739F3E00A6756F /* HJLoginExample02_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJLoginExample02_VC.h; sourceTree = "<group>"; };
+		C2947CF920739F3E00A6756F /* HJLoginExample01_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJLoginExample01_VC.h; sourceTree = "<group>"; };
+		C2947CFA20739F3E00A6756F /* HJLoginExample04_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJLoginExample04_VC.m; sourceTree = "<group>"; };
+		C2947CFB20739F3E00A6756F /* HJLoginExample03_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJLoginExample03_VC.m; sourceTree = "<group>"; };
+		C2947CFC20739F3E00A6756F /* HJLoginExample02_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJLoginExample02_VC.m; sourceTree = "<group>"; };
+		C2947D0420739F6800A6756F /* login_bg01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_bg01.jpg; sourceTree = "<group>"; };
+		C2947D0520739F6800A6756F /* login_bg03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_bg03.jpg; sourceTree = "<group>"; };
+		C2947D0620739F6800A6756F /* login_bg02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_bg02.jpg; sourceTree = "<group>"; };
+		C2947D0720739F6800A6756F /* login_bg_gif_01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = login_bg_gif_01.gif; sourceTree = "<group>"; };
+		C2947D0C2073A09300A6756F /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		D5A3F64BC2E1B9BEF8729168 /* Pods-IronManUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronManUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IronManUITests/Pods-IronManUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF97EA715039DD5E8CFB7811 /* Pods-IronManUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronManUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IronManUITests/Pods-IronManUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F77B227D62A28229EA6D2F8 /* libPods-IronMan.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C64D936CB1740D268CD4B104 /* libPods-IronManTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +116,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ACCCF6A3B4774FCC702509B /* libPods-IronManUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E5BDC78E6762EAC91DF9C6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D205A98691F424F804D93C6 /* Pods-IronMan.debug.xcconfig */,
+				7D777CC342A0C503D414D149 /* Pods-IronMan.release.xcconfig */,
+				81A16B93D6B57C8200D3416D /* Pods-IronManTests.debug.xcconfig */,
+				B4FD3F93C9796C469A1D82E1 /* Pods-IronManTests.release.xcconfig */,
+				D5A3F64BC2E1B9BEF8729168 /* Pods-IronManUITests.debug.xcconfig */,
+				FF97EA715039DD5E8CFB7811 /* Pods-IronManUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		902A47FDD90C741EA0CCE4D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A08A141002374475B9AA5A53 /* libPods-IronMan.a */,
+				67A8F1A01C1A5757B403E3C8 /* libPods-IronManTests.a */,
+				3C676AD2002AD0A9840DC4E6 /* libPods-IronManUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C2947C5B20729ACD00A6756F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +153,8 @@
 				C2947C7F20729ACE00A6756F /* IronManTests */,
 				C2947C8A20729ACE00A6756F /* IronManUITests */,
 				C2947C6520729ACD00A6756F /* Products */,
+				0E5BDC78E6762EAC91DF9C6D /* Pods */,
+				902A47FDD90C741EA0CCE4D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +171,7 @@
 		C2947C6620729ACD00A6756F /* IronMan */ = {
 			isa = PBXGroup;
 			children = (
+				C2947CEC2073988C00A6756F /* Login */,
 				C2947C6720729ACD00A6756F /* AppDelegate.h */,
 				C2947C6820729ACD00A6756F /* AppDelegate.m */,
 				C2947C6A20729ACD00A6756F /* ViewController.h */,
@@ -132,6 +203,72 @@
 			path = IronManUITests;
 			sourceTree = "<group>";
 		};
+		C2947CEC2073988C00A6756F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C2947D0320739F6800A6756F /* Loginimages */,
+				C2947CED20739F3E00A6756F /* LoginExamples */,
+				C2947CD720737F4100A6756F /* IMLogViewController.h */,
+				C2947CD820737F4100A6756F /* IMLogViewController.m */,
+				C2947D0C2073A09300A6756F /* Header.h */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C2947CED20739F3E00A6756F /* LoginExamples */ = {
+			isa = PBXGroup;
+			children = (
+				C2947CEE20739F3E00A6756F /* Others */,
+				C2947CF120739F3E00A6756F /* Bases */,
+				C2947CF420739F3E00A6756F /* Controllers */,
+			);
+			path = LoginExamples;
+			sourceTree = "<group>";
+		};
+		C2947CEE20739F3E00A6756F /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C2947CEF20739F3E00A6756F /* NSArray+HJImages.h */,
+				C2947CF020739F3E00A6756F /* NSArray+HJImages.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		C2947CF120739F3E00A6756F /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				C2947CF220739F3E00A6756F /* HJBaseLogin_VC.m */,
+				C2947CF320739F3E00A6756F /* HJBaseLogin_VC.h */,
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
+		C2947CF420739F3E00A6756F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C2947CF520739F3E00A6756F /* HJLoginExample01_VC.m */,
+				C2947CF620739F3E00A6756F /* HJLoginExample04_VC.h */,
+				C2947CF720739F3E00A6756F /* HJLoginExample03_VC.h */,
+				C2947CF820739F3E00A6756F /* HJLoginExample02_VC.h */,
+				C2947CF920739F3E00A6756F /* HJLoginExample01_VC.h */,
+				C2947CFA20739F3E00A6756F /* HJLoginExample04_VC.m */,
+				C2947CFB20739F3E00A6756F /* HJLoginExample03_VC.m */,
+				C2947CFC20739F3E00A6756F /* HJLoginExample02_VC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C2947D0320739F6800A6756F /* Loginimages */ = {
+			isa = PBXGroup;
+			children = (
+				C2947D0420739F6800A6756F /* login_bg01.jpg */,
+				C2947D0520739F6800A6756F /* login_bg03.jpg */,
+				C2947D0620739F6800A6756F /* login_bg02.jpg */,
+				C2947D0720739F6800A6756F /* login_bg_gif_01.gif */,
+			);
+			path = Loginimages;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +276,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2947C9020729ACE00A6756F /* Build configuration list for PBXNativeTarget "IronMan" */;
 			buildPhases = (
+				C531252BAD2088A2D830FA1F /* [CP] Check Pods Manifest.lock */,
 				C2947C6020729ACD00A6756F /* Sources */,
 				C2947C6120729ACD00A6756F /* Frameworks */,
 				C2947C6220729ACD00A6756F /* Resources */,
@@ -156,6 +294,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2947C9320729ACE00A6756F /* Build configuration list for PBXNativeTarget "IronManTests" */;
 			buildPhases = (
+				4E60AFA9022B034870BC85B2 /* [CP] Check Pods Manifest.lock */,
 				C2947C7820729ACE00A6756F /* Sources */,
 				C2947C7920729ACE00A6756F /* Frameworks */,
 				C2947C7A20729ACE00A6756F /* Resources */,
@@ -174,6 +313,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2947C9620729ACE00A6756F /* Build configuration list for PBXNativeTarget "IronManUITests" */;
 			buildPhases = (
+				98B833DFBD0D310DCB46D22E /* [CP] Check Pods Manifest.lock */,
 				C2947C8320729ACE00A6756F /* Sources */,
 				C2947C8420729ACE00A6756F /* Frameworks */,
 				C2947C8520729ACE00A6756F /* Resources */,
@@ -237,7 +377,11 @@
 			files = (
 				C2947C7420729ACE00A6756F /* LaunchScreen.storyboard in Resources */,
 				C2947C7120729ACE00A6756F /* Assets.xcassets in Resources */,
+				C2947D0B20739F6800A6756F /* login_bg_gif_01.gif in Resources */,
+				C2947D0A20739F6800A6756F /* login_bg02.jpg in Resources */,
+				C2947D0920739F6800A6756F /* login_bg03.jpg in Resources */,
 				C2947C6F20729ACD00A6756F /* Main.storyboard in Resources */,
+				C2947D0820739F6800A6756F /* login_bg01.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +401,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E60AFA9022B034870BC85B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IronManTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98B833DFBD0D310DCB46D22E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IronManUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C531252BAD2088A2D830FA1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IronMan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C2947C6020729ACD00A6756F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2947CFD20739F3E00A6756F /* NSArray+HJImages.m in Sources */,
+				C2947CFF20739F3E00A6756F /* HJLoginExample01_VC.m in Sources */,
 				C2947C6C20729ACD00A6756F /* ViewController.m in Sources */,
+				C2947D0120739F3E00A6756F /* HJLoginExample03_VC.m in Sources */,
+				C2947D0020739F3E00A6756F /* HJLoginExample04_VC.m in Sources */,
 				C2947C7720729ACE00A6756F /* main.m in Sources */,
+				C2947CFE20739F3E00A6756F /* HJBaseLogin_VC.m in Sources */,
+				C2947D0220739F3E00A6756F /* HJLoginExample02_VC.m in Sources */,
 				C2947C6920729ACD00A6756F /* AppDelegate.m in Sources */,
+				C2947CD920737F4100A6756F /* IMLogViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +639,7 @@
 		};
 		C2947C9120729ACE00A6756F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D205A98691F424F804D93C6 /* Pods-IronMan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +657,7 @@
 		};
 		C2947C9220729ACE00A6756F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D777CC342A0C503D414D149 /* Pods-IronMan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,6 +675,7 @@
 		};
 		C2947C9420729ACE00A6756F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A16B93D6B57C8200D3416D /* Pods-IronManTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -484,6 +695,7 @@
 		};
 		C2947C9520729ACE00A6756F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4FD3F93C9796C469A1D82E1 /* Pods-IronManTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +715,7 @@
 		};
 		C2947C9720729ACE00A6756F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5A3F64BC2E1B9BEF8729168 /* Pods-IronManUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HCPQ4JRW53;
@@ -521,6 +734,7 @@
 		};
 		C2947C9820729ACE00A6756F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF97EA715039DD5E8CFB7811 /* Pods-IronManUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HCPQ4JRW53;

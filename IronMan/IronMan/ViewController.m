@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import "Masonry.h"
+#import "IMLogViewController.h"
+#import "HJLoginExample04_VC.h"
 @interface ViewController ()
 
 @end
@@ -16,9 +18,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    
+    self.view.backgroundColor = [UIColor redColor];
+    int token = 0;
+    if (token == 1) {
+        NSLog(@"登录成功");
+        
+        
+    }else{
+        NSLog(@"登录失败");
+        IMLogViewController *VC = [[IMLogViewController alloc]init];
 
+        [self presentViewController:VC animated:YES completion:nil];
+    }
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
