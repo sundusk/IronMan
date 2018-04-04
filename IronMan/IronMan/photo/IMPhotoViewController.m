@@ -17,22 +17,30 @@
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     
-    int one = 1;
-    if (one == 1) {
-        
-        IMLogViewController *VC = [[IMLogViewController alloc]init];
-        
-        [self presentViewController:VC animated:NO completion:nil];
-        
-    }
+    
+    
     
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-        self.view.backgroundColor = [UIColor greenColor];
-        self.navigationItem.title = @"相册";
+    // 1.获取偏好设置对象
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    // 2.读取数据
+    BOOL one = [defaults boolForKey:@"one"];
+    
+    if (one != YES) {
+        
+        IMLogViewController *login = [[IMLogViewController alloc]init];
+        [self presentViewController:login animated:NO completion:nil];
+    }
+    
+    self.view.backgroundColor = [UIColor greenColor];
+    self.navigationItem.title = @"相册";
+    
+    
     
     
 }

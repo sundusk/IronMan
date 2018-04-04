@@ -273,6 +273,12 @@ static const CGFloat kBGOffsetW = 60.f;//可移动偏移量
     
     [self hideKeyboard];
     NSLog(@"进入主页面");
+    BOOL one = YES;
+    //获取用户偏好设置对象
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    //存储数据
+    [defaults setBool:one forKey:@"one"];
+
     [self dismissViewControllerAnimated:YES completion:nil];
     
 }
