@@ -17,4 +17,7 @@ target 'IronMan' do
   end
 
   pod 'Masonry'
+  pod 'MWPhotoBrowser'
+  pod 'CTAssetsPickerController'
+  pod'MBProgressHUD'
 end

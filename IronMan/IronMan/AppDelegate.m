@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "IMTabViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,14 +18,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    // 创建window
+    
     _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    ViewController *vc = [[ViewController alloc]init];
+    IMTabViewController *vc = [[IMTabViewController alloc]init];
     
-    // 包装成控制器
+    // 设置Window的初始化控制器
     
-    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
-    _window.rootViewController = nav;
+    self.window.rootViewController = vc;
+    
+    // 把window设置为主window并且显示
     
     [_window makeKeyAndVisible];
     

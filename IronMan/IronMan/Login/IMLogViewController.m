@@ -274,6 +274,7 @@ static const CGFloat kBGOffsetW = 60.f;//可移动偏移量
     [self hideKeyboard];
     NSLog(@"进入主页面");
     [self dismissViewControllerAnimated:YES completion:nil];
+    
 }
 
 - (void)registAction:(UIButton *)sender{
