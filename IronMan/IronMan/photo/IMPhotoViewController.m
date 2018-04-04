@@ -7,16 +7,34 @@
 //  照片
 
 #import "IMPhotoViewController.h"
-
+#import "IMLogViewController.h"
 @interface IMPhotoViewController ()
 
 @end
 
 @implementation IMPhotoViewController
 
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    
+    int one = 1;
+    if (one == 1) {
+        
+        IMLogViewController *VC = [[IMLogViewController alloc]init];
+        
+        [self presentViewController:VC animated:NO completion:nil];
+        
+    }
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+        self.view.backgroundColor = [UIColor greenColor];
+        self.navigationItem.title = @"相册";
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

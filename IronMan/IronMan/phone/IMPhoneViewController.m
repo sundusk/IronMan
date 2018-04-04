@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor yellowColor];
+    self.navigationItem.title = @"手机信息";
 }
 
 - (void)didReceiveMemoryWarning {

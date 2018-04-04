@@ -31,6 +31,7 @@
 		C2947D252074795C00A6756F /* IMPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2947D242074795B00A6756F /* IMPhotoViewController.m */; };
 		C2947D292074796700A6756F /* IMDiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2947D282074796700A6756F /* IMDiaryViewController.m */; };
 		C2947D2C2074799500A6756F /* IMNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2947D2B2074799500A6756F /* IMNavViewController.m */; };
+		C2947D302074835900A6756F /* IMSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2947D2F2074835900A6756F /* IMSetupViewController.m */; };
 		C64D936CB1740D268CD4B104 /* libPods-IronManTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A8F1A01C1A5757B403E3C8 /* libPods-IronManTests.a */; };
 /* End PBXBuildFile section */
 
@@ -102,6 +103,8 @@
 		C2947D282074796700A6756F /* IMDiaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMDiaryViewController.m; sourceTree = "<group>"; };
 		C2947D2A2074799500A6756F /* IMNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMNavViewController.h; sourceTree = "<group>"; };
 		C2947D2B2074799500A6756F /* IMNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMNavViewController.m; sourceTree = "<group>"; };
+		C2947D2E2074835900A6756F /* IMSetupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMSetupViewController.h; sourceTree = "<group>"; };
+		C2947D2F2074835900A6756F /* IMSetupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMSetupViewController.m; sourceTree = "<group>"; };
 		D5A3F64BC2E1B9BEF8729168 /* Pods-IronManUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronManUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IronManUITests/Pods-IronManUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF97EA715039DD5E8CFB7811 /* Pods-IronManUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronManUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IronManUITests/Pods-IronManUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -183,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				C2947D1A207478E600A6756F /* Controller */,
+				C2947D2D2074833F00A6756F /* SetUp */,
 				C2947D262074796700A6756F /* diary */,
 				C2947D1E2074795100A6756F /* phone */,
 				C2947D222074795B00A6756F /* photo */,
@@ -285,8 +289,8 @@
 		C2947D1A207478E600A6756F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C2947D1B207478E600A6756F /* IMTabViewController.m */,
 				C2947D1C207478E600A6756F /* IMTabViewController.h */,
+				C2947D1B207478E600A6756F /* IMTabViewController.m */,
 				C2947D2A2074799500A6756F /* IMNavViewController.h */,
 				C2947D2B2074799500A6756F /* IMNavViewController.m */,
 			);
@@ -296,8 +300,8 @@
 		C2947D1E2074795100A6756F /* phone */ = {
 			isa = PBXGroup;
 			children = (
-				C2947D1F2074795100A6756F /* IMPhoneViewController.m */,
 				C2947D202074795100A6756F /* IMPhoneViewController.h */,
+				C2947D1F2074795100A6756F /* IMPhoneViewController.m */,
 			);
 			name = phone;
 			path = IronMan/phone;
@@ -319,6 +323,15 @@
 				C2947D282074796700A6756F /* IMDiaryViewController.m */,
 			);
 			path = diary;
+			sourceTree = "<group>";
+		};
+		C2947D2D2074833F00A6756F /* SetUp */ = {
+			isa = PBXGroup;
+			children = (
+				C2947D2E2074835900A6756F /* IMSetupViewController.h */,
+				C2947D2F2074835900A6756F /* IMSetupViewController.m */,
+			);
+			path = SetUp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -549,6 +562,7 @@
 				C2947D252074795C00A6756F /* IMPhotoViewController.m in Sources */,
 				C2947CD920737F4100A6756F /* IMLogViewController.m in Sources */,
 				C2947D212074795100A6756F /* IMPhoneViewController.m in Sources */,
+				C2947D302074835900A6756F /* IMSetupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

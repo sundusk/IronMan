@@ -1,24 +1,23 @@
 //
-//  IMDiaryViewController.m
+//  IMSetupViewController.m
 //  IronMan
 //
 //  Created by sundusk on 2018/4/4.
 //  Copyright © 2018年 sundusk. All rights reserved.
-//  日记
+//  个人设置
 
-#import "IMDiaryViewController.h"
+#import "IMSetupViewController.h"
 
-@interface IMDiaryViewController ()
+@interface IMSetupViewController ()
 
 @end
 
-@implementation IMDiaryViewController
+@implementation IMSetupViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.view.backgroundColor = [UIColor blueColor];
-    self.navigationItem.title = @"日记";
+    self.view.backgroundColor = [UIColor orangeColor];
+    self.navigationItem.title = @"个人设置";
 }
 
 - (void)didReceiveMemoryWarning {
