@@ -1,4 +1,19 @@
 PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
   - CTAssetsPickerController (3.3.1):
     - PureLayout (~> 3.0.0)
   - DACircularProgress (2.3.1)
@@ -14,6 +29,7 @@ PODS:
   - SDWebImage/Core (3.8.2)
 
 DEPENDENCIES:
+  - AFNetworking
   - CTAssetsPickerController
   - Masonry
   - MBProgressHUD
@@ -21,6 +37,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
     - CTAssetsPickerController
     - DACircularProgress
     - Masonry
@@ -30,6 +47,7 @@ SPEC REPOS:
     - SDWebImage
 
 SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   CTAssetsPickerController: b1d1d50ab87cf6b8b13531de5f4530482e7e53ed
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
@@ -38,6 +56,6 @@ SPEC CHECKSUMS:
   PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
-PODFILE CHECKSUM: 19b4f65e2524a2c0a8845683e86dcb1962a1dda8
+PODFILE CHECKSUM: f895d5106c96be0cb31efb1efce6c1474bbb89b5
 
 COCOAPODS: 1.5.0.beta.1

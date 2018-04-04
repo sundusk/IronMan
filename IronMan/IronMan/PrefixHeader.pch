@@ -13,5 +13,6 @@
 #import "MWPhotoBrowser.h"
 #import <CTAssetsPickerController/CTAssetsPickerController.h>
 #import "MBProgressHUD.h"
+#import "AFNetworking.h"
 
 #endif /* PrefixHeader_pch */

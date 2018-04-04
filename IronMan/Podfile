@@ -20,4 +20,5 @@ target 'IronMan' do
   pod 'MWPhotoBrowser'
   pod 'CTAssetsPickerController'
   pod'MBProgressHUD'
+  pod 'AFNetworking'
 end
