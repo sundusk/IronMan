@@ -8,6 +8,8 @@
 
 #import "IMPhotoViewController.h"
 #import "IMLogViewController.h"
+#import "CTApperanceViewController.h"
+
 @interface IMPhotoViewController ()
 
 @end
@@ -41,14 +43,45 @@
     self.navigationItem.title = @"相册";
     
     
+    UIButton *iPhoneButton = [[UIButton alloc]init];
+    iPhoneButton.backgroundColor = [UIColor yellowColor];
+    [iPhoneButton addTarget:self action:@selector(BthClick:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:iPhoneButton];
+    [iPhoneButton setTitle:@"手机详情" forState:UIControlStateNormal];
+    [iPhoneButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    iPhoneButton.titleLabel.font = [UIFont systemFontOfSize:10];
+    
+    [iPhoneButton mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.centerY.equalTo(self.view);
+    }];
+    
+    
     
     
 }
+- (void)BthClick:(UIButton *)btn{
+    NSLog(@"点击跳转到此页面");
+    
+    UIViewController *vc;
+    vc = (UIViewController *)[CTApperanceViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
+   
+}
 
+
+
+
+
+
+//- (void)assetsPickerController:(CTAssetsPickerController *)picker didFinishPickingAssets:(NSArray *)assets
+//{
+//
+//}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 
 

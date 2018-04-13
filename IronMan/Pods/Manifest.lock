@@ -34,6 +34,7 @@ DEPENDENCIES:
   - Masonry
   - MBProgressHUD
   - MWPhotoBrowser
+  - PureLayout
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -56,6 +57,6 @@ SPEC CHECKSUMS:
   PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
-PODFILE CHECKSUM: f895d5106c96be0cb31efb1efce6c1474bbb89b5
+PODFILE CHECKSUM: df6561c91f0d54dbadf12aab530e686b15bb2a1d
 
 COCOAPODS: 1.5.0.beta.1

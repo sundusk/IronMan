@@ -21,4 +21,6 @@ target 'IronMan' do
   pod 'CTAssetsPickerController'
   pod'MBProgressHUD'
   pod 'AFNetworking'
+  pod 'PureLayout'
+ 
 end

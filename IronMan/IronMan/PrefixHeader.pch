@@ -12,7 +12,9 @@
 #import "Masonry.h"
 #import "MWPhotoBrowser.h"
 #import <CTAssetsPickerController/CTAssetsPickerController.h>
+
 #import "MBProgressHUD.h"
 #import "AFNetworking.h"
+#import "PureLayout.h"
 
 #endif /* PrefixHeader_pch */
