@@ -42,8 +42,8 @@
     self.zxView.backgroundColor = [UIColor blueColor];
     [self.zxView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.width.equalTo(self.view);
-        make.height.equalTo(@64);
-        make.bottom.equalTo(self.view.mas_bottom).offset(-64);
+        make.height.equalTo(@49);
+        make.bottom.equalTo(self.view.mas_bottom).offset(-49);
     }];
     
     //撰写按钮
@@ -75,7 +75,7 @@
     self.diaryTableView.delegate = self;
     self.diaryTableView.dataSource = self;
     
-    self.diaryTableView.backgroundColor = [UIColor whiteColor];
+    self.diaryTableView.backgroundColor = [UIColor clearColor];
     
 }
 
@@ -131,7 +131,7 @@
     cell.textLabel.text=[NSString stringWithFormat:@"我是第%ld区 第%ld行",indexPath.section,indexPath.row];
     cell.textLabel.textAlignment=NSTextAlignmentCenter;
     
-    
+    cell.backgroundColor = [UIColor clearColor];
     return cell;
 }
 //点击cell执行该方法

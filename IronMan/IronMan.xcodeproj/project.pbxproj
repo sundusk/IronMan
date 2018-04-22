@@ -145,7 +145,6 @@
 		C2BEDECA2074E6F800E32A25 /* IMImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMImage.m; sourceTree = "<group>"; };
 		C2CB05CF208D0FDE00123618 /* IMWriteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMWriteViewController.h; sourceTree = "<group>"; };
 		C2CB05D0208D0FDE00123618 /* IMWriteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMWriteViewController.m; sourceTree = "<group>"; };
-		C2CB05E5208D13DD00123618 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		D5A3F64BC2E1B9BEF8729168 /* Pods-IronManUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronManUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IronManUITests/Pods-IronManUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF97EA715039DD5E8CFB7811 /* Pods-IronManUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronManUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IronManUITests/Pods-IronManUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -366,7 +365,6 @@
 		C2947D262074796700A6756F /* diary */ = {
 			isa = PBXGroup;
 			children = (
-				C2CB05E5208D13DD00123618 /* Constants.h */,
 				C2947D272074796700A6756F /* IMDiaryViewController.h */,
 				C2947D282074796700A6756F /* IMDiaryViewController.m */,
 				C2CB05CF208D0FDE00123618 /* IMWriteViewController.h */,
