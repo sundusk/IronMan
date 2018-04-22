@@ -7,6 +7,7 @@
 //  日记
 
 #import "IMDiaryViewController.h"
+#import "IMWriteViewController.h"
 
 @interface IMDiaryViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -81,6 +82,16 @@
 // 撰写点击事件
 - (void)click{
     NSLog(@"撰写成功");
+    
+    IMWriteViewController *writeVc = [[IMWriteViewController alloc] init];
+    
+    // 2.显示
+    [self presentViewController:writeVc animated:YES completion:nil];
+    
+    
+    
+    
+    
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
