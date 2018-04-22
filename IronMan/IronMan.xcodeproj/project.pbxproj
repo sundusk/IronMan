@@ -44,6 +44,7 @@
 		C2BEDEC72074CFB600E32A25 /* NSDateFormatter+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BEDEBE2074CFB600E32A25 /* NSDateFormatter+CTAssetsPickerController.m */; };
 		C2BEDEC82074CFB600E32A25 /* PHImageManager+CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BEDEBF2074CFB600E32A25 /* PHImageManager+CTAssetsPickerController.m */; };
 		C2BEDECB2074E6F800E32A25 /* IMImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BEDECA2074E6F800E32A25 /* IMImage.m */; };
+		C2CB05D1208D0FDE00123618 /* IMWriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CB05D0208D0FDE00123618 /* IMWriteViewController.m */; };
 		C64D936CB1740D268CD4B104 /* libPods-IronManTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A8F1A01C1A5757B403E3C8 /* libPods-IronManTests.a */; };
 /* End PBXBuildFile section */
 
@@ -142,6 +143,8 @@
 		C2BEDEBF2074CFB600E32A25 /* PHImageManager+CTAssetsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PHImageManager+CTAssetsPickerController.m"; sourceTree = "<group>"; };
 		C2BEDEC92074E6F800E32A25 /* IMImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMImage.h; sourceTree = "<group>"; };
 		C2BEDECA2074E6F800E32A25 /* IMImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMImage.m; sourceTree = "<group>"; };
+		C2CB05CF208D0FDE00123618 /* IMWriteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMWriteViewController.h; sourceTree = "<group>"; };
+		C2CB05D0208D0FDE00123618 /* IMWriteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMWriteViewController.m; sourceTree = "<group>"; };
 		D5A3F64BC2E1B9BEF8729168 /* Pods-IronManUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronManUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IronManUITests/Pods-IronManUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF97EA715039DD5E8CFB7811 /* Pods-IronManUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronManUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IronManUITests/Pods-IronManUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -364,6 +367,8 @@
 			children = (
 				C2947D272074796700A6756F /* IMDiaryViewController.h */,
 				C2947D282074796700A6756F /* IMDiaryViewController.m */,
+				C2CB05CF208D0FDE00123618 /* IMWriteViewController.h */,
+				C2CB05D0208D0FDE00123618 /* IMWriteViewController.m */,
 			);
 			path = diary;
 			sourceTree = "<group>";
@@ -644,6 +649,7 @@
 				C2BEDEC22074CFB600E32A25 /* NSNumberFormatter+CTAssetsPickerController.m in Sources */,
 				C2BEDEAA2074CE8400E32A25 /* CTApperanceViewController.m in Sources */,
 				C2BEDEC02074CFB600E32A25 /* PHAssetCollection+CTAssetsPickerController.m in Sources */,
+				C2CB05D1208D0FDE00123618 /* IMWriteViewController.m in Sources */,
 				C2947D302074835900A6756F /* IMSetupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
