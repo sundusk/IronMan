@@ -19,8 +19,12 @@
     
     self.view.backgroundColor = [UIColor blueColor];
     self.navigationItem.title = @"日记";
+     [self.view addSubview:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bgd"]]];
 }
 
+- (void)setupUI{
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

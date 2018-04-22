@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface IMDiaryViewController : UIViewController
+#import <CoreData/CoreData.h>
+@interface IMDiaryViewController : UIViewController<UIScrollViewDelegate>
 
 @end
+
