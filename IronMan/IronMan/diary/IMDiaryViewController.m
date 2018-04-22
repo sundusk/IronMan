@@ -8,6 +8,7 @@
 
 #import "IMDiaryViewController.h"
 #import "IMWriteViewController.h"
+#import "IMDiaryAlertView.h"
 
 @interface IMDiaryViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -15,7 +16,7 @@
 @property (weak,nonatomic) UIView *zxView;//撰写view
 @property (weak,nonatomic) UIButton *zxBut;//撰写按钮
 @property (strong,nonatomic) NSArray *rijiArr;//日记篇数
-
+@property (nonatomic, strong) IMDiaryAlertView *alertView;//日记弹窗
 
 
 @end
@@ -137,6 +138,11 @@
 //点击cell执行该方法
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
+    //初始化
+    _alertView = [[IMDiaryAlertView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    //显示alertView
+    [_alertView showAnimated];
+
     
 }
 
