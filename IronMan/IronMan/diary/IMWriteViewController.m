@@ -10,7 +10,8 @@
 #define DWScreenHeight [UIScreen mainScreen].bounds.size.height/9
 @interface IMWriteViewController ()
 
-
+@property (weak,nonatomic) UITextField *btText;
+@property (weak,nonatomic) UITextView *nrTextView;
 
 @end
 
@@ -83,6 +84,42 @@
     [button setTintColor:[UIColor whiteColor]];
     
     
+    
+    // 标题栏
+    UITextField *btText = [[UITextField alloc]init];
+    self.btText = btText;
+    [self.view addSubview:self.btText];
+    [self.btText mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.equalTo(self.view);
+        make.top.equalTo(topView.mas_bottom);
+        
+    }];
+    self.btText.backgroundColor = [UIColor yellowColor];
+    
+    // 中间线
+    
+    UIView *hxView = [[UIView alloc]init];
+    [self.view addSubview:hxView];
+    [hxView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(btText.mas_bottom);
+        make.left.right.equalTo(self.view);
+        make.height.offset(1);
+    }];
+    hxView.backgroundColor = [UIColor blackColor];
+    
+    
+     // 日记内容编写
+    UITextView *rijiTextView = [[UITextView alloc]init];
+    self.nrTextView = rijiTextView;
+    [self.view addSubview:self.nrTextView];
+    
+    self.nrTextView.backgroundColor = [UIColor whiteColor];
+    [self.nrTextView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(hxView.mas_bottom);
+        make.left.right.bottom.equalTo(self.view);
+    }];
+    
+    
 }
 // 返回日记浏览页面
 - (void)click{
@@ -90,6 +127,7 @@
 }
 // 保存日记
 - (void)save{
+    NSLog(@"%@", self.nrTextView.text);
     NSLog(@"保存");
     [self dismissViewControllerAnimated:YES completion:nil];
 }
@@ -98,14 +136,6 @@
     
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

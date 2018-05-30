@@ -8,7 +8,7 @@
 
 #import "IMPhotoViewController.h"
 #import "IMLogViewController.h"
-#import "CTApperanceViewController.h"
+
 
 @interface IMPhotoViewController ()
 
@@ -63,9 +63,7 @@
 - (void)BthClick:(UIButton *)btn{
     NSLog(@"点击跳转到此页面");
     
-    UIViewController *vc;
-    vc = (UIViewController *)[CTApperanceViewController new];
-    [self.navigationController pushViewController:vc animated:YES];
+  
    
 }
 
